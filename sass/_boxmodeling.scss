@@ -10,20 +10,19 @@ header.filtroazul{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: rgba(29, 28, 60, 0.7);
+	background-color: rgba(29, 28, 60, 0.4);
 }
 
 html h2{
 
 	font-family: 'Oswald', sans-serif;
 	box-sizing: border-box;
-	font-size: 80px;
+	font-size: 60px;
 	text-transform:uppercase;
 	letter-spacing:2px;
 	color: $celeste;
 	padding:40px 40px;
 	display:inline-block;
-	margin:0 20px 0 0;
  }
 
 .video{
@@ -148,13 +147,20 @@ section.youtube{
 			background: -webkit-linear-gradient(top, #1c0f38 0%,#211c66 100%);
 			background: linear-gradient(to bottom, #1c0f38 0%,#211c66 100%);
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c0f38', endColorstr='#211c66',GradientType=0 );
-			flex-direction:column;
 			border: solid 1px white;
 			position: relative;
-			padding:50px 0;
-				h4{
+			padding:50px 20px;
+			align-items:top;
+			display:inline-block;
+				div.sticky{
+					flex-direction:column;
+					top:100px;
+					position:sticky;
+					h4{
 					color:white;
 				}
+				}
+
 	    }
 		div.yt2{
 			height: 100%;
