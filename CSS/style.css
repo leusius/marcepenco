@@ -54,6 +54,7 @@ section.quehacemos {
   section.quehacemos div.contimgquehacemos {
     background-image: url("../images/bkgquehacemos.jpeg");
     background-size: cover;
+    background-attachment: fixed;
     padding: 0; }
     section.quehacemos div.contimgquehacemos img.mic {
       left: 0;
@@ -102,7 +103,7 @@ section.youtube {
       position: absolute;
       left: 0;
       top: 0;
-      background-color: rgba(29, 28, 60, 0.7);
+      background-color: rgba(29, 28, 60, 0.5);
       transition: 0.3s;
       z-index: 2; }
     section.youtube div.row div.contover div.overlay:hover {
