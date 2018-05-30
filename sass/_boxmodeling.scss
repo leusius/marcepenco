@@ -173,7 +173,7 @@ section.youtube{
 					    text-decoration: none;
 					    border: solid 1px white;
 				}
-				div.red , div.blue{
+				div.red{
 					background-image: url("http://unsplash.it/900/600");
 					background: cover;
 					height:400px;
@@ -183,19 +183,19 @@ section.youtube{
 					align-items:center;
 					position:relative;
 				}
+				div.produccion1{
+					background-image: url("../images/Amouniversal.jpg");
+					background-position: center top;
+				}
+				div.produccion2{
+					background-image: url("../images/nellvalenti.jpg");
+					background-position: center top;
+				}
+				div.produccion3{
+					background-image: url("../images/esporti.jpg");
+					background-position: center top;
+				}
 			}
-		div.yt3{
-			background-image:url("http://unsplash.it/640/600");
-			height: 500px;
-			flex-direction:column;
-			border: solid 1px white;
-		}
-		div.yt4{
-			background-image:url("http://unsplash.it/640/600");
-			height: 500px;
-			flex-direction:column;
-			border: solid 1px white;
-		}
 		h3{
 			color: white;
 			font-size: 30px;
