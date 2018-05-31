@@ -46,6 +46,13 @@ div.logoyleyenda {
     text-transform: uppercase;
     letter-spacing: 8px; }
 
+div.contnav nav.navcolor {
+  background: #ff5521;
+  background: -moz-linear-gradient(90deg, #ff5521 0%, #ffa060 100%);
+  background: -webkit-linear-gradient(90deg, #ff5521 0%, #ffa060 100%);
+  background: linear-gradient(90deg, #ff5521 0%, #ffa060 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff5521",endColorstr="#ffa060",GradientType=1); }
+
 section.quehacemos div.row {
   justify-content: flex-start; }
 
@@ -109,11 +116,11 @@ section.youtube {
     section.youtube div.row div.contover div.overlay:hover {
       background-color: rgba(29, 28, 60, 0); }
   section.youtube div.row div.yt1 {
-    background: #1c0f38;
-    background: -moz-linear-gradient(top, #1c0f38 0%, #211c66 100%);
-    background: -webkit-linear-gradient(top, #1c0f38 0%, #211c66 100%);
-    background: linear-gradient(to bottom, #1c0f38 0%, #211c66 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c0f38', endColorstr='#211c66',GradientType=0 );
+    background: #62257a;
+    background: -moz-linear-gradient(9deg, #62257a 0%, #261866 100%);
+    background: -webkit-linear-gradient(9deg, #62257a 0%, #261866 100%);
+    background: linear-gradient(9deg, #62257a 0%, #261866 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#62257a",endColorstr="#261866",GradientType=1);
     border: solid 1px white;
     position: relative;
     padding: 50px 20px;
