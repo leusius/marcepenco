@@ -162,6 +162,18 @@ section.youtube {
     section.youtube div.row div.yt2 div.produccion3 {
       background-image: url("../images/esporti.jpg");
       background-position: center top; }
+    section.youtube div.row div.yt2 div.cantante1 {
+      background-image: url("../images/lowrdez.jpg");
+      background-position: center top; }
+    section.youtube div.row div.yt2 div.cantante2 {
+      background-image: url("../images/kari.jpg");
+      background-position: center top; }
+    section.youtube div.row div.yt2 div.cantante3 {
+      background-image: url("../images/veronica.jpg");
+      background-position: center top; }
+    section.youtube div.row div.yt2 div.cantante4 {
+      background-image: url("../images/ctr.jpg");
+      background-position: center top; }
   section.youtube div.row h3 {
     color: white;
     font-size: 30px;
