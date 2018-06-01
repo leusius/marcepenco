@@ -51,7 +51,9 @@ div.contnav nav.navcolor {
   background: -moz-linear-gradient(90deg, #ff5521 0%, #ffa060 100%);
   background: -webkit-linear-gradient(90deg, #ff5521 0%, #ffa060 100%);
   background: linear-gradient(90deg, #ff5521 0%, #ffa060 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff5521",endColorstr="#ffa060",GradientType=1); }
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff5521",endColorstr="#ffa060",GradientType=1);
+  opacity: 0.75;
+  box-shadow: 3px 5px 10px rgba(255, 85, 33, 0.3); }
 
 section.quehacemos div.row {
   justify-content: flex-start; }
@@ -184,9 +186,16 @@ section.contacto {
     text-align: right; }
 
 footer {
-  background: orange;
-  display: inline-block;
-  width: 100% px;
-  height: 90px; }
+  background: #ff5521;
+  background: -moz-linear-gradient(-45deg, #ff5521 0%, #ffa060 100%);
+  background: -webkit-linear-gradient(-45deg, #ff5521 0%, #ffa060 100%);
+  background: linear-gradient(-45deg, #ff5521 0%, #ffa060 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff5521",endColorstr="#ffa060",GradientType=1);
+  display: flex;
+  width: 100%;
+  height: 90px;
+  justify-content: center; }
+  footer p.webmaster {
+    color: white; }
 
 /*# sourceMappingURL=style.css.map */
