@@ -17,12 +17,15 @@ html h2{
 
 	font-family: 'Oswald', sans-serif;
 	box-sizing: border-box;
-	font-size: 60px;
+	font-size: 40px;
 	text-transform:uppercase;
 	letter-spacing:2px;
-	color: $celeste;
-	padding:40px 40px;
-	display:inline-block;
+	color: white;
+	background: $celeste;
+	margin:20px 0;
+	padding:30px 40px;
+	box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.3);
+	text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
  }
 
 .video{
@@ -57,7 +60,7 @@ div.contnav nav.navcolor{
 	background: -webkit-linear-gradient(90deg, rgba(255,85,33,1) 0%, rgba(255,160,96,1) 100%);
 	background: linear-gradient(90deg, rgba(255,85,33,1) 0%, rgba(255,160,96,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff5521",endColorstr="#ffa060",GradientType=1);
-	opacity: 0.75;
+	opacity: 0.85;
 	box-shadow:3px 5px 10px rgba(255,85,33,0.3);
 }
 
@@ -69,7 +72,7 @@ justify-content: flex-start;
 section.quehacemos{
 		box-shadow:0 5px 10px rgba(0,0,0,0.4);
 	div.contimgquehacemos{
-	background-image: url("../images/bkgquehacemos.jpeg");
+	background-image: url("../images/bkgquehacemos2.jpg");
 	background-size:cover;
 	background-attachment: fixed;
 	padding:0;
@@ -80,7 +83,10 @@ section.quehacemos{
 		width:70%;
 	}
 }
-
+h2.h2quehacemos{
+			font-size:50px;
+			width:100%;
+			}
 	div.artquehacemos{
 		justify-content:center;
 		align-items:center;
@@ -88,9 +94,6 @@ section.quehacemos{
 		font-family: Raleway, sans-serif;
 		box-sizing: border-box;
 		padding:0 0 40px 0;
-			h2.h2quehacemos{
-			font-size:70px;
-			}
 			ul.quehacemos{
 				padding:0 0 0 40px;
 				letter-spacing:1px;
@@ -114,7 +117,7 @@ section.quien{
 	width: 100%;
 		h2{
 			text-align:right;
-			margin:0 0 20px 0;
+			margin:20px 0;
 		}
 		& div.galeriaquienes{
 			box-sizing: content-box;
@@ -246,13 +249,56 @@ section.soundcloud{
 	}
 }
 
+//* SECTION CONTACTO *// 
+
 section.contacto{
 	margin: 50px 0;
 		h2{
 			width:100%;
 			text-align:right;
 		}
+	div.col{
+		border: solid 5px white;
+		box-sizing: border-box;
+		height:80px;
+		display:flex;
+		align-items: center;
+		justify-content: center;
+		color:white;		
+	}
+	div.face1{
+		background: #3b5998;
+			ion-icon{
+ 			 	font-size: 40px;
+			}
+	}
+	div.insta1{
+		 background:
+    /////// Use radial gradients to get the rounded
+    /////// gradient effect in each corner
+
+    // left bottom
+    radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
+    //radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    // left top
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+    //  right top
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+    // right bottom
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+
+    /////// create a base coat to smooth
+    /////// corner gradients
+    linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+	}
+	div.whats1{
+		background: #34af23;
+	}
 }
+
+
 footer{
 	background: rgb(255,85,33);
 	background: -moz-linear-gradient(-45deg, rgba(255,85,33,1) 0%, rgba(255,160,96,1) 100%);
