@@ -259,7 +259,7 @@ section.contacto{
 			width:100%;
 			text-align:right;
 		}
-	div.col{
+	div.contact{
 		border: solid 5px white;
 		box-sizing: border-box;
 		height:80px;
@@ -268,36 +268,54 @@ section.contacto{
 		justify-content: center;
 		color:white;		
 	}
-	div.face1{
-		background: #3b5998;
-			ion-icon{
- 			 	font-size: 40px;
-			}
+	a.fa{
+		display:flex;
+		justify-content:center;
+		align-items:center;	
 	}
-	div.insta1{
-		 background:
-    /////// Use radial gradients to get the rounded
-    /////// gradient effect in each corner
+	.fa {
+	  padding: 20px;
+	  font-size: 30px;
+	  width: 100px;
+	  text-align: center;
+	  text-decoration: none;
+	  margin: 5px 2px;
+	}
 
-    // left bottom
-    radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
-    //radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
-    // left top
-    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
-    radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
-    //  right top
-    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
-    radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
-    // right bottom
-    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+	.fa:hover {
+	    opacity: 0.7;
+	}
 
-    /////// create a base coat to smooth
-    /////// corner gradients
-    linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+	.fa-facebook {
+	  background: #3B5998;
+	  color: white;
 	}
-	div.whats1{
-		background: #34af23;
+
+	.fa-youtube {
+	  background: #bb0000;
+	  color: white;
 	}
+
+	.fa-instagram {
+	  background: #c343f0;
+	  color: white;
+	}
+
+	.fa-soundcloud {
+	  background: #ff3300;
+	  color: white;
+	}
+
+	.fa-whatsapp {
+	  background: #34af23;
+	  color: white;
+	}
+
+	.fa-envelope-open {
+	  background: orange;
+	  color: white;
+	}
+	
 }
 
 
@@ -316,3 +334,4 @@ footer{
 	
 		}
 }
+

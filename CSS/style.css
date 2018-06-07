@@ -202,7 +202,7 @@ section.contacto {
   section.contacto h2 {
     width: 100%;
     text-align: right; }
-  section.contacto div.col {
+  section.contacto div.contact {
     border: solid 5px white;
     box-sizing: border-box;
     height: 80px;
@@ -210,14 +210,37 @@ section.contacto {
     align-items: center;
     justify-content: center;
     color: white; }
-  section.contacto div.face1 {
-    background: #3b5998; }
-    section.contacto div.face1 ion-icon {
-      font-size: 40px; }
-  section.contacto div.insta1 {
-    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%); }
-  section.contacto div.whats1 {
-    background: #34af23; }
+  section.contacto a.fa {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  section.contacto .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px; }
+  section.contacto .fa:hover {
+    opacity: 0.7; }
+  section.contacto .fa-facebook {
+    background: #3B5998;
+    color: white; }
+  section.contacto .fa-youtube {
+    background: #bb0000;
+    color: white; }
+  section.contacto .fa-instagram {
+    background: #c343f0;
+    color: white; }
+  section.contacto .fa-soundcloud {
+    background: #ff3300;
+    color: white; }
+  section.contacto .fa-whatsapp {
+    background: #34af23;
+    color: white; }
+  section.contacto .fa-envelope-open {
+    background: orange;
+    color: white; }
 
 footer {
   background: #ff5521;
