@@ -202,10 +202,11 @@ section.contacto {
   section.contacto h2 {
     width: 100%;
     text-align: right; }
+  section.contacto div.contacto {
+    justify-content: center; }
   section.contacto div.contact {
     border: solid 5px white;
     box-sizing: border-box;
-    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -243,19 +244,25 @@ section.contacto {
     background: #34af23;
     color: white;
     position: absolute;
-    width: 200%;
+    width: 100%;
     height: 100%;
     display: flex;
-    right: -10px;
+    bottom: 0%;
     opacity: 0;
     align-items: center;
     justify-content: center;
     font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
     transition: 0.3s;
-    font-size: 20px; }
+    font-size: 30px;
+    padding: 20px 0; }
   section.contacto .whatsappon {
+    width: 400%;
+    height: 100px;
+    border-radius: 5px;
+    left: -15px;
     opacity: 1;
-    right: 0;
+    bottom: 100%;
     box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2);
     -webkit-box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2);
@@ -263,6 +270,11 @@ section.contacto {
   section.contacto .fa-envelope-open {
     background: orange;
     color: white; }
+  section.contacto .mapa {
+    margin: 30px 0;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2); }
 
 footer {
   background: #ff5521;
