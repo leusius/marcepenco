@@ -221,9 +221,15 @@ section.contacto {
     width: 100px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px; }
+    margin: 5px 2px;
+    position: relative;
+    transition: 0.3s; }
   section.contacto .fa:hover {
-    opacity: 1.5; }
+    box-shadow: inset 0px 8px 10px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0px 8px 10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 0px 8px 10px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 8px 8px rgba(0, 0, 0, 0.4);
+    transition: 0.3s; }
   section.contacto .fa-facebook {
     background: #3B5998;
     color: white; }
@@ -238,8 +244,7 @@ section.contacto {
     color: white; }
   section.contacto .fa-whatsapp {
     background: #34af23;
-    color: white;
-    position: relative; }
+    color: white; }
   section.contacto .whatsapp {
     background: #34af23;
     color: white;

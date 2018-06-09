@@ -282,10 +282,16 @@ section.contacto{
 	  text-align: center;
 	  text-decoration: none;
 	  margin: 5px 2px;
+	  position:relative;
+	  transition:0.3s;
 	}
 
 	.fa:hover {
-	    opacity: 1.5;
+		box-shadow: inset 0px 8px 10px rgba(0, 0, 0, 0.3);
+		-webkit-box-shadow: inset  0px 8px 10px rgba(0, 0, 0, 0.3);
+		-moz-box-shadow: inset 0px 8px 10px rgba(0, 0, 0, 0.3);
+		text-shadow: 2px 8px 8px rgba(0, 0, 0, 0.4);
+		transition:0.3s;
 	}
 
 	.fa-facebook {
@@ -311,7 +317,6 @@ section.contacto{
 	.fa-whatsapp {
 	  background: #34af23;
 	  color: white;
-	  position: relative;
 	}
 	.whatsapp{
 	  background: #34af23;
