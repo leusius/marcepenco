@@ -30,6 +30,11 @@ html h2{
 	text-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2);
  }
 
+ h3{
+ 	color: #30338C;
+ 	margin: 15px 0 20px 0;
+ }
+
 .video{
 	position: absolute;
 	z-index: -5;
@@ -211,6 +216,10 @@ section.youtube{
 					background-image: url("../images/esporti.jpg");
 					background-position: center top;
 				}
+				div.produccion4{
+					background-image: url("../images/ctr.jpg");
+					background-position: center top;
+				}
 				div.cantante1{
 					background-image: url("../images/lowrdez.jpg");
 					background-position: center top;
@@ -224,8 +233,12 @@ section.youtube{
 					background-position: center top;
 				}
 				div.cantante4{
-					background-image: url("../images/ctr.jpg");
+					background-image: url("../images/grupovocal.jpg");
 					background-position: center top;
+					h3.grupo{
+						font-size: 25px;
+						text-align: center;
+					}
 				}
 			}
 		h3{
@@ -243,7 +256,7 @@ section.youtube{
 }
 section.soundcloud{ 
 	box-shadow:0 5px 10px rgba(0,0,0,0.4);
-	margin:90px 0 0 0;
+	margin:90px 0 0px 0;
 
 	h2.soundcloud{
 		width:100%;
