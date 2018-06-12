@@ -98,14 +98,10 @@ section.quien {
   section.quien div.contquien {
     display: flex;
     flex-direction: column;
-    width: 100%; }
+    justify-content: center; }
     section.quien div.contquien h2 {
       text-align: right;
       margin: 20px 0; }
-    section.quien div.contquien div.galeriaquienes {
-      box-sizing: content-box;
-      width: 100%;
-      height: auto; }
 
 section.youtube {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4); }
@@ -299,7 +295,7 @@ footer {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff5521",endColorstr="#ffa060",GradientType=1);
   display: flex;
   width: 100%;
-  height: 90px;
+  height: 40px;
   justify-content: center; }
   footer p.webmaster {
     color: white; }
