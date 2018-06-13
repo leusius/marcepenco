@@ -102,6 +102,8 @@ section.quien {
     section.quien div.contquien h2 {
       text-align: right;
       margin: 20px 0; }
+    section.quien div.contquien h5 {
+      text-shadow: 2px 2px 2px #303030; }
 
 section.youtube {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4); }
