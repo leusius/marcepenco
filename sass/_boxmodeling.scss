@@ -30,6 +30,11 @@ html h2{
 	text-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2);
  }
 
+img.banner{
+	z-index:-40;
+	position:absolute;
+}
+
  h3{
  	color: #30338C;
  	margin: 15px 0 20px 0;
